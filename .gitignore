@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Env secrets
+.env
+backend/.env
+
+# Vector index (regenerated from knowledge/data on first run)
+backend/app/knowledge/index/*
+!backend/app/knowledge/index/.gitkeep
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code session-local state
+.claude/
